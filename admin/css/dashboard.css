@@ -1,0 +1,61 @@
+
+body{
+  margin: 0;
+}
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+/******************Nav Bar**********************/
+.bs-example{
+color: #fff;
+
+}
+.navbar{
+    background-color: #551A88;
+  }
+.navbar-nav .active{
+    color: #fff;
+}
+.nav-item,.nav-link{
+    color: #c3c3c3;
+    margin-left: 15px;
+}
+.nav-item:hover,.nav-link:hover{
+    color: #fff;
+}
+.company-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+/************** Breadcrumb***************/
+.breadcrumb{
+  background-color:#F5EEF8 ;
+}
+.breadcrumb a{
+  color: #A569BD;
+}
+.breadcrumb-item.active{
+  color: #512E5F;
+}
+/************Heading************/
+.h2{
+  color: #551A88;
+}
+/************Button Styling******/
+.btn1{
+  background-color: #551A88;
+  color: #fff;
+  
+}
+.btn1:hover{
+  background-color: #F5EEF8 ;
+  color: #551A88;
+  border-color: #551A88;
+}

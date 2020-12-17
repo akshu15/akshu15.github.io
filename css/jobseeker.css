@@ -1,0 +1,237 @@
+/******************Nav Bar**********************/
+.bs-example{
+color: #fff;
+
+}
+.navbar{
+    background-color: #551A88;
+  }
+.nav-item,.nav-link{
+    color: #fff;
+    margin-left: 15px;
+}
+.nav-item:hover,.nav-link:hover{
+    color: #c3c3c3;
+}
+.company-logo{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-toggler:focus{
+outline: none;
+}
+/********************************************/
+
+.picture{
+    background: url('../img/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px; 
+}
+.searchbar{
+    padding: 20px;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    color: #55595c;
+    background-color: #fff;
+    outline: none;
+    height: 50px;
+}
+.search-slt input{
+   border:none;
+}
+.dropdown1 button{
+    border: none;
+    border-left: 1px solid #c3c3c3;
+}
+/*select:focus,input:focus{
+    outline: none;
+}*/
+.keyword{
+    border-color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.search-btn{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 50px;
+    background-color: #551A88;
+    border-color: #551A88;
+    color: #fff;
+}
+.search-btn:hover{
+    color: #c3c3c3;
+}
+.searchbar{
+    padding-top: 5%;
+}
+.job-quote{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    opacity: 0.8;
+}
+.job-quote-searchbar{
+    padding-top: 7%;
+}
+@media screen and (max-width: 600px) {
+.keyword{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+.search-btn{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.job-quote{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    opacity: 0.8;
+}
+.job-quote-searchbar{
+    padding-top: 10%;
+}
+.dropdown1 select{
+    border: none;
+    border-left: none;
+    border-top: 1px solid #c3c3c3;
+}
+}
+/******FAQ Resume Interview********/
+.card1{
+    padding: 15px;
+}
+.card1 a{
+    text-decoration: none; 
+    color: #000;
+}
+.card1-content{
+    background-color: #F5EEF8; 
+    padding: 20px;
+}
+/***********Apply Job**********/
+.apply{
+    background-color: #551A88;
+    color: #fff;
+}
+
+.apply:hover{
+    color: #c3c3c3;
+    outline: none;
+}
+.fa-building{
+    color: #551A88;
+}
+
+/*****************Contact us*****************/
+
+.contact a{
+    text-decoration: none;
+}
+
+.pic{
+    
+    background-repeat: no-repeat;
+}
+
+
+.ab{
+padding-top:23%; 
+}
+
+.breadcrumb{
+    background: transparent;
+    font-size: 30px;
+    
+    
+
+}
+ .all{
+    padding-top: 2%;
+ }
+.breadcrumb-item a{
+  
+ text-decoration: none;
+   color:white;
+   opacity: 0.8; 
+}
+
+.breadcrumb .active{
+color:white;
+font-size: 60px;
+
+}
+
+@media only screen and (max-width: 600px) {
+.ab{
+padding-top:78%; 
+}
+
+.all{
+    padding-top:7%;
+ }
+}
+
+/**************About us****************/
+
+.about{
+    text-align:justify;
+    }
+
+
+/**************Footer***************/
+footer{
+    background-color: #551A88;
+    color: #fff;
+}
+h3{
+    color: #512E5F;
+    font-weight: bold;
+}
+.footer-link li{
+    padding: 5px 0px;
+}
+.footer-link li a{
+    text-decoration: none;
+    color: #c3c3c3;
+}
+.footer-link li a:hover{
+    color: #fff;
+    text-decoration: none;
+    }
+/**Apply Job*******/
+.apply-submit {
+  padding:10px 20px;
+  font-size: 18px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 22px;
+  background: #551A8B;
+}
+
+.apply-submit:hover {
+  background: #551A8B;
+}
+
+.apply_job input {
+  outline: none;
+  margin: 0;
+  padding: 20px;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
